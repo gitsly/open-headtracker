@@ -1,0 +1,237 @@
+﻿  /****** light box styles ****/
+  .lbbar{
+  position:fixed;
+  left:0px;
+  right:0px;
+  background-color:#1A1A1A;
+  min-width:800px;
+  z-index:-1;}
+
+  .lbbottombar{
+  bottom: 0px;
+  border-top:solid 2px #00B2FF;}
+  
+  .lblogo{
+  background-image:url('../images/lightbox/logo-lightbox.png');
+  background-position:center top; 
+  position:absolute; 
+  top:0; 
+  left:68px; 
+  width:221px; 
+  height:50px;}
+
+  .lblogo:hover{
+  background-position:center bottom;}
+
+  .lbclosebutton{
+  background-image:url('../images/lightbox/close-button.png');
+  position:absolute;
+  top:0;
+  right:68px;
+  width:67px;
+  height:50px;
+  display:block;}
+
+  .lbclosebutton:link, .lbclosebutton:visited{
+  background-position:center top;
+  width:67px;/* IE Fix*/}
+
+  .lbclosebutton:hover{
+  background-position:center bottom;}
+
+  .lbfilenamecase{
+  background-color:#1A1A1A;
+  padding-top: 20px;}
+
+  .lbattachbase{
+  font-size:18px;
+  padding-left:68px;
+  color:white;}
+
+  .lbattachext{
+  font-size:18px;
+  color:#6F6F6F;}
+
+  .lbreportcase{
+  padding:4px;
+  position:absolute;
+  right: 68px}
+
+  .lbreport{
+  font-size:12px;
+  text-decoration: none;
+  background-image:url('../images/lightbox/icon-notify.png');
+  padding-left: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-repeat: no-repeat;}
+
+  .lbreport:link, .lbreport:visited{
+  background-position:0px 0px;
+  color:#999999;}
+
+  .lbreport:hover{
+  background-position:0px -20px;
+  color:#009CFF;}
+
+  .lbinfocase{
+  color:white;
+  padding-left:68px;
+  padding-top: 3px;}
+
+  .lbinfolbl{
+  font-size:12px;
+  color:#6F6F6F;}
+  
+  .lbinfotxt{
+  font-size:12px;
+  color:#949494;}
+
+  .lbviewuser{
+  font-size:12px;
+  text-decoration: none;}
+
+  .lbviewuser:link, .lbviewuser:visited{
+  color:#949494;}
+
+  .lbviewuser:hover{
+  color:#009CFF;}
+
+  .lbviewpost{
+  font-size:12px;
+  background-image:url('../images/lightbox/icon-viewpost.png');
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-repeat: no-repeat;
+  text-decoration: none;}
+
+   .lbviewpost:link, .lbviewpost:visited{
+  background-position:0px 0px;
+  color:white;}
+
+  .lbviewpost:hover{
+  background-position:0px -20px;
+  color:#009CFF;}
+
+  .lbviewpics{
+  font-size:12px;
+  background-image:url('../images/lightbox/icon-viewpics.png');
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-repeat: no-repeat;
+  text-decoration: none;}
+
+  .lbviewpics:link, .lbviewpics:visited{
+  background-position:0px 0px;
+  color:white;}
+
+  .lbviewpics:hover{
+  background-position:0px -20px;
+  color:#009CFF;}
+
+  .lbduration{
+  font-size:12px;
+  background-image:url('../images/lightbox/icon-videotime.png');
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-repeat: no-repeat;
+  background-position:4px 4px;
+  text-decoration: none;
+  color:white;}
+
+  .lbnextposition{
+  position: fixed;
+  right: 65px;
+  top: 50%;}
+
+  .lbprevposition{
+  position: fixed;
+  left: 65px;
+  top: 50%;}
+
+  .lbnextbutton{
+  background-image:url('../images/lightbox/controls.png');
+  position:absolute; 
+  width:100px; 
+  height:100px; 
+  top: -78px; 
+  left: -50px;}
+
+  .lbnextbutton:link, .lbnextbutton:visited{
+  background-position:0px 0px;
+  width:100px;/* IE Fix*/}
+
+  .lbnextbutton:hover{
+  background-position:0px -100px;}
+
+  a.lbnextdisabled:link, a.lbnextdisabled:visited, a.lbnextdisabled:hover{
+  background-position:0px -200px}
+
+  .lbprevbutton{
+  background-image:url('../images/lightbox/controls.png');
+  position:absolute; 
+  width:100px; 
+  height:100px; 
+  top: -78px; 
+  left: -50px;}
+
+  .lbprevbutton:link, .lbprevbutton:visited{
+  background-position:-100px 0px;
+  width:100px;/* IE Fix*/}
+
+  .lbprevbutton:hover{
+  background-position:-100px -100px;}
+
+  a.lbprevdisabled:link, a.lbprevdisabled:visited, a.lbprevdisabled:hover{
+  background-position:-100px -200px}
+
+  .lbfeaturecase{
+  font-size:12px;
+  position:absolute;
+  right: 0px;}
+
+  .lbpopfeature{
+  background-image:url('../images/lightbox/icons-featured.png');
+  display:inline-block;
+  width:20px;
+  height:17px;
+  background-position:0px 0px;
+  background-repeat: no-repeat;}
+
+  .lbnofeature{
+  background-image:url('../images/lightbox/icons-featured.png');
+  display:inline-block;
+  width:20px;
+  height:17px;
+  background-position:-40px 0px;
+  background-repeat: no-repeat;}
+
+  .lbpopfeatureselected, .lbpopfeaturehovered{
+  background-position:0px -20px;}
+
+  .lbnofeatureselected, .lbnofeaturehovered{
+  background-position:-40px -20px;}
+
+  .lbfeaturelbl{
+  display:none;
+  min-width:198px;
+  color:#7F7F7F;
+  position:relative;
+  top:-2px;}
+  
+  .lbdescriptioncase{
+  background-color:#1A1A1A;
+  padding-top: 8px;}
+
+  .lbdescription{
+  font-size:12px; 
+  padding-left:68px; 
+  color:white; 
+  max-width:450px;}
+
+  .lbbottombarpadding{
+  padding-top: 8px;
+  font-size:12px;}

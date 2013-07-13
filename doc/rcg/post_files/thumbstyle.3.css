@@ -1,0 +1,483 @@
+/* ************** CSS for new attachment table 12/27/12 ******************** */
+
+.attach_box
+{
+	border-top: solid 1px #CECECE;
+	border-bottom: solid 1px #CECECE;
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background: url('/forums/images/beta/attach/bgtexture-thumbcontainer.png');
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+.attach_header
+{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	margin: 5px	0px	3px 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+.attach_header h1
+{
+	color: #262626;
+	font-size: 18px;
+	display: inline;
+	background:none;
+}
+
+img.icon_img
+{
+	position: absolute;
+	left: 3px;
+	top: 2px;
+}
+
+img.icon_files
+{
+	position: absolute;
+	left: 11px;
+	top: 6px;
+}
+
+h1.head_img
+{
+	position: absolute;
+	left: 40px;
+	top: 4px;		
+	margin: 0;
+}
+
+h1.head_files
+{
+	position: absolute;
+	left: 24px;
+	top: 6px;		
+	margin: 0;
+}
+
+ul.thumb_row
+{
+		border-top: solid 1px #CECECE;
+		border-bottom: solid 1px #CECECE;
+		margin-top: 10px;
+		margin: 0;
+		padding: 10px 0px 0px 0px;
+		background: url('/forums/images/beta/attach/bgtexture-thumbcontainer.png');
+		font-family: 'Lato', sans-serif;
+		padding-bottom: 20px;
+		list-style-type: none;
+		list-style-position: outside;
+}
+
+ul.thumb_row li
+{
+	display: inline;
+	vertical-align: top;
+}
+
+a.gallery_link
+{
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	height: 20px;
+	width: 214px;
+	margin: 0;
+	background-image: url('/forums/images/beta/attach/icon-gallery-view-hover.png');
+	background-repeat: no-repeat;
+	text-align: right;
+	font-weight: 700;
+	font-size: 14px;
+	padding-top: 1px;
+	padding-right: 36px;
+}
+
+a.gallery_link:link {background-position: 223px 0px;}
+a.gallery_link:visited {background-position: 223px 0px;}
+a.gallery_link:hover {background-position: 223px -20px;}
+a.gallery_link:active {background-position: 223px -20px;}
+
+a.thumb_link
+{
+	display: inline-block;
+	background-color: white;
+	width:200px;
+	padding:5px 5px 10px 5px;
+	border-top: solid 1px #CECECE;
+	border-left: solid 1px #CECECE;
+	border-right: solid 1px #CECECE;
+	margin-left: 7px;
+	margin-top: 10px;
+	color: #262626;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+a.thumb_link:link {border-bottom: solid 3px #4E4E4E;}
+a.thumb_link:visited {border-bottom: solid 3px #4E4E4E;}
+a.thumb_link:hover {border-bottom: solid 3px #00AEFF; cursor: pointer;}
+a.thumb_link:active {border-bottom: solid 3px #00AEFF;}
+
+.thumb_box
+{
+	width: 200px;
+	height:200px;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	line-height: 200px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.thumb_box img
+{
+	vertical-align: middle;
+	max-width:200px;
+	max-height:200px;
+	line-height: 20px;
+}
+
+ul.filewrap
+{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+ul.filewrap li
+{
+	display: block;
+	font-family: 'Lato', sans-serif;
+}
+
+ul.filewrap li a
+{
+	position:relative;
+	display: block;
+	border-left: none;
+	border-right: none;
+	background-color: white;
+	margin: 0px 10px 6px 8px;
+	padding: 3px 10px 4px 7px;
+	height: 19px;
+}
+
+ul.filewrap li a:link {border-top: solid 1px #CECECE; border-bottom: solid 1px #CECECE;}
+ul.filewrap li a:visited {border-top: solid 1px #CECECE; border-bottom: solid 1px #CECECE;}
+ul.filewrap li a:hover {border-top: solid 1px #00AEFF; border-bottom: solid 1px #00AEFF; cursor: pointer;}
+ul.filewrap li a:active {border-top: solid 1px #CECECE; border-bottom: solid 1px #00AEFF;}
+
+ul.filewrap li div
+{
+	float:left;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.nothumb
+{
+	line-height: 10px;
+	display: block;
+	padding-top: 25px;
+}
+
+.attach_filename
+{
+	display: block;
+	color: #262626;
+	font-weight: 700;
+	max-width: 185px;
+	overflow: hidden;
+	text-align: center;
+	min-height: 25px;
+	white-space: nowrap;
+}
+
+.attach_caption
+{
+	color: #666666;
+	max-width: 320px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.attach_size
+{
+	color: #666666;
+}
+
+.attach_count
+{
+	color: #666666;
+}
+
+ul.filewrap li a p
+{
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	background-image: url('/forums/images/beta/attach/icon-download-hover.png');
+	background-repeat: no-repeat;
+	height: 15px;
+	padding-left: 17px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color:#666666;
+	margin:0;
+}
+
+ul.filewrap li a:link p {background-position: 0px 0px;}
+ul.filewrap li a:visited p {background-position: 0px 0px;}
+ul.filewrap li a:hover p {background-position: 0px -15px;}
+ul.filewrap li a:active p {background-position: 0px -15px;}
+
+/* *********** styling for thumbnails.htm ************ */
+
+tr#bluebar
+{
+	height: 8px;
+}
+
+tr#bluebar td
+{
+	background-color: #009CFF; 
+	width: 100%;
+}
+
+a#thread_title_link:link {color: #0096FF;}
+a#thread_title_link:visited {color: #0096FF;}
+a#thread_title_link:hover {color: #0096FF;}
+a#thread_title_link:active {color: #0096FF;}
+
+#thumbgallery_title
+{
+	float: left;
+	margin: 6px	0px	0px 0px;
+	font-family: 'Lato', sans-serif;
+	width: 500px;
+	font-weight: 700;
+	line-height: 19px;
+}
+
+img#icon_thread
+{
+	display: inline;
+	margin:0;
+	padding:0;
+}
+
+#thumbgallery_title h1
+{
+	display: inline;
+	color: #262626;
+	font-size: 21px;
+	width:100px;
+	white-space: nowrap;
+}
+
+#thumbgallery_title a
+{
+	display: inline;
+	overflow: hidden;
+	font-size: 21px;
+}
+
+#channel_info
+{
+	width: 300px;
+	float: left;
+	margin: 0;
+}
+
+#thumbgallery_title h2
+{
+	font-size: 14px;
+	margin: 0;
+}
+
+#thumbgallery_title h2 a
+{
+	font-size:14px;
+}
+
+
+#show_selector
+{
+	float: right;
+	margin-top: 10px;
+}
+
+#show_selector a, #show_selector p, #show_selector h2
+{
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	padding-bottom: 2px;
+	margin-right: 8px;
+}
+
+#show_selector a:link {color: #A7A7A7; background-position: 0px -38px ;}
+#show_selector a:visited {color: #A7A7A7; background-position: 0px -38px;}
+#show_selector a:hover {color: #4D4D4D; background-position: 0px -8px;}
+#show_selector a:active {color: #4D4D4D; background-position: 0px -8px;}
+
+a.active_show 
+{
+	color: #4D4D4D !important;
+	background-position: 0px -8px !important;
+}
+
+h2#show_text
+{
+	padding-left: 0;
+	display: inline;
+	margin-right: 4px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a#show_all
+{
+	background-image: url('/forums/images/beta/attach/icon-all-hover.png');
+}
+
+a#show_images
+{
+	background-image: url('/forums/images/beta/attach/icon-img-hover.png');
+}
+
+a#show_files
+{
+	background-image: url('/forums/images/beta/attach/icon-files-hover.png');
+}
+
+a#show_starter_active
+{
+	height: 15px;
+	background-image: url('/forums/images/beta/attach/checkbox.png');
+	padding-left: 17px !important;
+	padding-bottom: 2px;
+}
+a#show_starter_active:link {color: #A7A7A7; background-position: 0px 0px ;}
+a#show_starter_active:visited {color: #A7A7A7; background-position: 0px 0px;}
+a#show_starter_active:hover {color: #4D4D4D; background-position: 0px -15px;}
+a#show_starter_active:active {color: #4D4D4D; background-position: 0px -15px;}
+
+a#show_starter_inactive
+{
+	height: 15px;
+	background-image: url('/forums/images/beta/attach/checkbox.png');
+	padding-left: 17px !important;
+	padding-bottom: 2px;
+}
+a#show_starter_inactive:link {color: #A7A7A7; background-position: 0px -15px ;}
+a#show_starter_inactive:visited {color: #A7A7A7; background-position: 0px -15px;}
+a#show_starter_inactive:hover {color: #4D4D4D; background-position: 0px 0px;}
+a#show_starter_inactive:active {color: #4D4D4D; background-position: 0px 0px;}
+
+
+#group_selector
+{
+	margin: 6px 0 0 0;
+	padding: 0;
+	position: relative;
+	vertical-align: top;
+	float: left;
+}
+
+#group_selector a, #group_selector p, #group_selector h2
+{
+	display: inline;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	padding-bottom: 2px;
+	margin-right: 8px;
+}
+
+#group_selector a:link {color: #A7A7A7; background-position: 0px -38px ;}
+#group_selector a:visited {color: #A7A7A7; background-position: 0px -38px;}
+#group_selector a:hover {color: #4D4D4D; background-position: 0px -8px;}
+#group_selector a:active {color: #4D4D4D; background-position: 0px -8px;}
+
+h2#group_by
+{
+	display: inline;
+	padding: 0;
+}
+
+a#group_date
+{
+	background-image: url('/forums/images/beta/attach/icon-date-hover.png');
+}
+
+a#group_author
+{
+	background-image: url('/forums/images/beta/attach/icon-author-hover.png');
+}
+
+a#group_none
+{
+	background-image: url('/forums/images/beta/attach/icon-none-hover.png');
+}
+
+#channel_selector
+{
+	float:right;
+	position: relative;
+}
+
+form#channel_form
+{
+	margin-top: 10px;
+	position: relative;
+	display: block;
+	height: 30px;
+	width: 200px;
+}
+
+select#channel_select
+{
+	display: inline;
+	border: solid 1px #DDDFE0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	height: 22px;
+	padding-top: 1px;
+	text-align: left;
+	margin: 0;
+	position: absolute;
+	top: 0px;
+	right: 35px;
+}
+
+#channel_ibtn
+{
+	border: solid 1px #DDDFE0;
+	background-image: url('/forums/images/beta/buttons3/gobtn_sprite.png');	
+	background-position: 0px 0px;
+	height: 20px;
+	width: 23px;
+	font-size:0;
+	display: block;
+	border: none;
+	position: absolute;
+	top: 1px;
+	right: 7px;
+}
